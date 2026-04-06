@@ -1,9 +1,6 @@
 #include <iostream>
 using namespace std;
 
-#include <iostream>
-using namespace std;
-
 int main() {
 // deklarasi array disertai inisialisasi
     int dataku[5] = {10, 20, 30, 40, 50};
@@ -35,5 +32,19 @@ int main() {
     cout << "data keempat = " << datamu[3] << endl;
     cout << "data kelima = " << datamu[4] << endl;
 
-    return 0;
+ //Mengisi data melalui perulangan
+    for (int i = 0; i <= 4; i++)
+    {
+        cout << "Isikan data ke-" << (1 + 1) << " : ";
+
+    }
+
+    //Menampilkan data dengann perulangan
+
+    for (int i = 0; i <= 4; i++)
+    {
+    cout << "Data ke-" << (i + 1) << " : " << datamu [i] << endl;
+
+    }
+    
 }
